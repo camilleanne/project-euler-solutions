@@ -20,14 +20,14 @@ let cTop = 1;
 let cCur = 1;
 
 for (let i = 0; i < input.length; i ++) {
-	if (cCur > cTop) cTop = cCur;
-	let current = input[i];
-	current ++;
-	cCur = 1;
-	while (set.has(current)) {
-		current ++
-		cCur ++
-	}	
+  if (cCur > cTop) cTop = cCur;
+  let current = input[i];
+  current ++;
+  cCur = 1;
+  while (set.has(current)) {
+    current ++
+    cCur ++
+  } 
 }
 
 console.log(cTop)
