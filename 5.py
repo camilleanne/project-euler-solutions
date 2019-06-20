@@ -2,6 +2,8 @@
 
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
+# --
+
 # this answer is 10x slower in python than js
 # whyyyyy??
 
@@ -23,5 +25,3 @@ while True:
     break
 
 print i
-
-

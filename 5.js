@@ -2,8 +2,10 @@
 
 // What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
+// --
+
 // there's a way to do this with prime factorials
-// ... lets learn prime factorials better
+// ... let's learn prime factorials better
 
 const range = 20;
 let i = range;
